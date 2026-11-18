@@ -26,13 +26,13 @@ Open <http://localhost:5000>.
 Build the image:
 
 ```bash
-docker build -t docker-flask-app .
+docker build -t webapp .
 ```
 
 Start the container:
 
 ```bash
-docker run --rm -p 5000:5000 docker-flask-app
+docker run --rm -p 5000:5000 webapp
 ```
 
 Open <http://localhost:5000>.
